@@ -23,6 +23,9 @@ The system uses a LangChain Agent that dynamically decides which tools to invoke
 
 ---
 
+![Image Search Demo](Demo/image_search_demo.png)
+![Image Search Demo](Demo/order_demo.png)
+
 # 🚀 Features
 
 ### 🔍 Natural Language Product Search
