@@ -102,45 +102,6 @@ After user confirmation, the assistant:
 
 ---
 
-# 🏗️ System Architecture
-
-```text
-                     ┌──────────────┐
-                     │    User      │
-                     └──────┬───────┘
-                            │
-                            ▼
-                  ┌──────────────────┐
-                  │   Streamlit UI   │
-                  └────────┬─────────┘
-                           │
-                           ▼
-                 ┌────────────────────┐
-                 │ LangChain Agent    │
-                 └────────┬───────────┘
-                          │
-        ┌─────────────────┼─────────────────┐
-        │                 │                 │
-        ▼                 ▼                 ▼
-
- Search Tool      Rating Tool      Checkout Tool
-        │                 │                 │
-        └─────────┬───────┴─────────┬───────┘
-                  │                 │
-                  ▼                 ▼
-             SQLite DB       Orders Table
-
-                          ▲
-                          │
-                          ▼
-
-                Vision Analysis Tool
-                          │
-                          ▼
-                    Vision LLM
-```
-
----
 
 # ⚙️ Technology Stack
 
@@ -198,50 +159,6 @@ Recommend Similar Products
 
 ---
 
-# 🛠️ Tools Implemented
-
-## search_products()
-
-Search products using:
-
-* Name
-* Description
-* Category
-* Price Range
-* Organic Status
-
-Returns matching products from SQLite.
-
----
-
-## get_rating()
-
-Returns:
-
-* Average Rating
-* Review Count
-
-for a specific product.
-
----
-
-## checkout()
-
-Creates order records and confirms purchases.
-
----
-
-## describe_product_image()
-
-Uses a Vision LLM to:
-
-* Identify products
-* Detect organic labels
-* Extract search keywords
-* Generate product descriptions
-
----
-
 # 📂 Project Structure
 
 ```text
@@ -274,24 +191,6 @@ MultiModal-AI-Shopping-Assistant-Agent/
 git clone https://github.com/<your-username>/MultiModal-AI-Shopping-Assistant-Agent.git
 
 cd MultiModal-AI-Shopping-Assistant-Agent
-```
-
----
-
-## Create Virtual Environment
-
-### Linux / Mac
-
-```bash
-python -m venv venv
-source venv/bin/activate
-```
-
-### Windows
-
-```bash
-python -m venv venv
-venv\Scripts\activate
 ```
 
 ---
@@ -375,23 +274,3 @@ This project demonstrates:
 * Conversational AI Systems
 
 ---
-
-# 👨‍💻 Author
-
-Desilva Roy
-
-M.Tech (Computational and Data Science)
-
-Indian Institute of Science (IISc), Bangalore
-
-Interested in:
-
-* Generative AI
-* Large Language Models
-* Agentic AI Systems
-* Computer Vision
-* Retrieval-Augmented Generation (RAG)
-
----
-
-# ⭐ If you found this project useful, please consider giving it a star.
