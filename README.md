@@ -188,7 +188,7 @@ MultiModal-AI-Shopping-Assistant-Agent/
 ## Clone Repository
 
 ```bash
-git clone https://github.com/<your-username>/MultiModal-AI-Shopping-Assistant-Agent.git
+git clone https://github.com/Desilva93/MultiModal-AI-Shopping-Assistant-Agent.git
 
 cd MultiModal-AI-Shopping-Assistant-Agent
 ```
