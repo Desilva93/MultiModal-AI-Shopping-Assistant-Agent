@@ -235,15 +235,15 @@ Recommend the best organic product in the store.
 ```
 
 ```text
-Show products with ratings above 4.5.
+Show grains products with ratings above 4.5.
 ```
 
 ```text
-I want healthy breakfast products under $15.
+What types of snacks are available?
 ```
 
 ```text
-Show products in the breakfast category.
+Show products in oil category.
 ```
 
 ---
