@@ -224,23 +224,23 @@ streamlit run Streamlit.py
 # 💡 Example Queries
 
 ```text
-I want organic honey under $20
+I want organic honey under $20 with rating above 4.5.
 ```
 
 ```text
-Show products rated above 4.5
+Recommend the best organic product in the store.
 ```
 
 ```text
-Find similar products to this image
+Show products with ratings above 4.5.
 ```
 
 ```text
-Order the first product
+I want healthy breakfast products under $15.
 ```
 
 ```text
-I want organic almonds with rating above 4 stars
+Show products in the breakfast category.
 ```
 
 ---
