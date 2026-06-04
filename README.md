@@ -247,21 +247,21 @@ Uses a Vision LLM to:
 ```text
 MultiModal-AI-Shopping-Assistant-Agent/
 │
-├── app.py
-├── shopping_agent.py
-├── get_reviews.py
-├── store.db
+├── Trial_Images/
+│   ├── honey.png
+│   ├── oats.png
+│   ├── elephant.png
+│   └── gun.png
 │
-├── screenshots/
-│   ├── homepage.png
-│   ├── image_search.png
-│   ├── recommendations.png
-│   └── checkout.png
+├── Streamlit.py          # Streamlit frontend application
+├── shopping_agent.py     # LangChain agent and tools
+├── get_reviews.py        # Product rating retrieval functions
+├── store.db              # SQLite product, review, and order database
 │
-├── requirements.txt
-├── .env.example
-├── README.md
-└── LICENSE
+├── Requirements.txt      # Project dependencies
+├── README.md             # Project documentation
+├── LICENSE               # MIT License
+└── .gitignore            # Ignored files and folders
 ```
 
 ---
@@ -299,7 +299,7 @@ venv\Scripts\activate
 ## Install Dependencies
 
 ```bash
-pip install -r requirements.txt
+pip install -r Requirements.txt
 ```
 
 ---
@@ -317,7 +317,7 @@ GROQ_API_KEY=your_groq_api_key
 ## Run Application
 
 ```bash
-streamlit run app.py
+streamlit run Streamlit.py
 ```
 
 ---
