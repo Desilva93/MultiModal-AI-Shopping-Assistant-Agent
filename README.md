@@ -167,6 +167,10 @@ Recommend Similar Products
 ```text
 MultiModal-AI-Shopping-Assistant-Agent/
 │
+├── Demo/
+│   ├── image_search_demo.png
+│   └── order_demo.png
+│
 ├── Trial_Images/
 │   ├── honey.png
 │   ├── oats.png
